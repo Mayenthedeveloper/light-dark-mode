@@ -26,22 +26,7 @@ function toggleDarkLightMode(isDark) {
     : toggleIcon.children[1].classList.replace("fa-moon", "fa-sun");
   isDark ? imageMode("dark") : imageMode("light");
 }
-// // Dark Mode Styles
-// function darkMode() {
-//   nav.style.backgroundColor = "rgb(0 0 0 / 50%)";
-//   textBox.style.backgroundColor = "rgb(255 255 255 / 50%)";
-//   toggleIcon.children[0].textContent = "Dark Mode";
-//   toggleIcon.children[1].classList.replace("fa-sun", "fa-moon");
-//   imageMode("dark");
-// }
-// Light Mode Styles
-// function lightMode() {
-//   nav.style.backgroundColor = "rgb(255 255 255 / 50%)";
-//   textBox.style.backgroundColor = "rgb(0 0 0 / 50%)";
-//   toggleIcon.children[0].textContent = "Light Mode";
-//   toggleIcon.children[1].classList.replace("fa-moon", "fa-sun");
-//   imageMode("light");
-// }
+
 // Switch Theme Dynamically
 function switchTheme(event) {
   if (event.target.checked) {
